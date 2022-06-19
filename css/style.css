@@ -30,12 +30,6 @@ h2 {
   font-size: 100%;
 }
 
-/* a[href*='.css']::after {
-    content: '📝';
-    display: inline-block;
-    margin-left: 3px;
-  } */
-
 nav ul {
   display: flex;
   justify-content: space-between;
@@ -53,18 +47,6 @@ nav a:hover {
   color: var(--light);
 }
 
-/* footer {
-  display: flex;
-  justify-content: left;
-  padding: 2%;
-  background-color: #13293d;
-  color: #fff;
-} */
-
-/* span {
-  padding-right: 10%;
-} */
-
 main {
   display: flex;
   flex-direction: column;
@@ -75,7 +57,7 @@ main {
 main aside {
   display: flex;
   justify-content: center;
-  padding: 4px;
+  padding: 40px;
   border-right: 2px solid #13293d;
   /* width: 50em; */
   flex-direction: column;
