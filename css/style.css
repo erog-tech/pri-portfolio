@@ -3,6 +3,8 @@
   --dark: #13293d;
   --light: #fff;
   --navlink-color: #b9c6ae;
+  --green: #1dfd3d;
+  --op: 0.5;
 }
 
 body {
@@ -64,6 +66,7 @@ main aside {
   text-align: right;
   padding-right: 10px;
   padding-left: 20%;
+  text-size-adjust: 100p;
 }
 
 main section {
@@ -86,12 +89,16 @@ main div {
   flex-direction: column;
   text-align: right;
   margin-top: 50px;
-  padding-left: 18%;
+  padding-left: 15.5%;
 }
 .info{
   display: flex;
   margin-top: 100px;
-  
+  padding: 10px;
+}
+.info a {
+  padding: 2%;
+  color: var(--dark);
 }
 #box0{
   display: block;
@@ -101,31 +108,38 @@ main div {
   height: 225px;
   background: url(../images/image-1.png) no-repeat center ;
   background-size: cover;
-  
-  
+}
+#box0:hover  {
+  opacity: var(--op);
 }
 
 #box1{
   display: flex;
-  
 }
+
 
 #box1 #text1{
   border: 2px solid #13293d;
   margin: 2px;
-  width: 100%;
+  width: 45em;
   height: 225px;
-  background: url(../images/image-1.png) no-repeat center ;
+  background: url(../images/image-2.png) no-repeat center ;
   background-size: cover;
 }
-
+#box1 #text1:hover {
+  
+  opacity: var(--op);
+}
 #box1 #text2{
   border: 2px solid #13293d;
   margin: 2px;
-  width: 100%;
+  width: 45em;
   height: 225px;
-  background: url(../images/image-1.png) no-repeat center ;
+  background: url(../images/image-3.png) no-repeat center ;
   background-size: cover;
+}
+#box1 #text2:hover{
+  opacity: var(--op);
 }
 #box2{
   display: flex;
@@ -137,24 +151,25 @@ main div {
 #box2 #text1{
   border: 2px solid #13293d;
   margin: 2px;
-  width: 100%;
+  width: 45em;
   height: 225px;
-  background: url(../images/image-1.png) no-repeat center ;
+  background: url(../images/image-4.png) no-repeat center ;
   background-size: cover;
 }
-
+#box2 #text1:hover{
+  opacity: var(--op);
+}
 #box2 #text2{
   border: 2px solid #13293d;
   margin: 2px;
-  width: 100%;
+  width: 45em;
   height: 225px;
-  background: url(../images/image-1.png) no-repeat center ;
+  background: url(../images/image-5.png) no-repeat center ;
   background-size: cover;
 }
-
-/* .card-header{
-  background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(45,107,253,1) 100%);
-} */
+#box2 #text2:hover{
+  opacity: var(--op);
+}
 .card-header{
   width: fit-content;
   height: fit-content;
