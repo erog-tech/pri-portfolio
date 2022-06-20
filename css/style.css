@@ -113,6 +113,7 @@ main div {
 }
 #box0:hover  {
   opacity: var(--op);
+  transform: scale(1.02);
 }
 
 #box1{
@@ -132,6 +133,7 @@ main div {
 #box1 #text1:hover {
   
   opacity: var(--op);
+  transform: scale(1.04);
 }
 #box1 #text2{
   border: 2px solid #13293d;
@@ -143,6 +145,7 @@ main div {
 }
 #box1 #text2:hover{
   opacity: var(--op);
+  transform: scale(1.04);
 }
 #box2{
   display: flex;
@@ -161,6 +164,7 @@ main div {
 }
 #box2 #text1:hover{
   opacity: var(--op);
+  transform: scale(1.04);
 }
 #box2 #text2{
   border: 2px solid #13293d;
@@ -172,6 +176,7 @@ main div {
 }
 #box2 #text2:hover{
   opacity: var(--op);
+  transform: scale(1.04);
 }
 .card-header{
   width: fit-content;
